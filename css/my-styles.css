@@ -3,6 +3,7 @@
 
 body {
 	padding-top: 140px;
+font-size: 2em;
 }
 .container {
 	max-width: 1000px;
@@ -16,6 +17,10 @@ body {
 	width: 300px;
 	margin-left: 20%;
 
+}
+
+.profile-img{
+width:70px;
 }
 
 /* logoS & Icons
