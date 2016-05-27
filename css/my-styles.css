@@ -52,7 +52,20 @@ body {
 .header {
 	font-style: normal;
 	color: white;
-	
+}
+
+.col-md-4{
+height: 300px;
+border: 10px solid white;
+
+}
+
+.col-md-4 img{
+	height: 100px;
+	vertical-align: middle;
+	margin: 70px;
+
+
 }
 /* Glyphicons
 ================================ */
