@@ -57,16 +57,42 @@ body {
 .col-md-4{
 height: 300px;
 border: 10px solid white;
-
 }
 
 .col-md-4 img{
 	height: 100px;
 	vertical-align: middle;
 	margin: 70px;
-
-
 }
+ .quote{
+	 background-color: #F9F9F9;
+	 height: 190px;
+	 width: 100%;
+	 /*padding: 32px 60px 32px 60px;*/
+ }
+
+ blockquote:before {
+     position: relative;
+     content: "\201C";
+     display: block;
+     width: 100%;
+		 line-height: .8;
+     text-align: center;
+		 font-size: 66px;
+		 font-family: cursive;
+		 color: #3E527D;
+ }
+footer{
+	text-align: right;
+	font-weight: bold;
+}
+
+cite{
+	color: #3E527D;
+	font-style: italic;
+}
+
+
 /* Glyphicons
 ================================ */
 
