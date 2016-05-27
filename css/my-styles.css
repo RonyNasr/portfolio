@@ -2,23 +2,34 @@
 ================================ */
 
 body {
-	padding-top: 70px;
-	background-image: url(../img/bg.jpg);
-
+	padding-top: 140px;
 }
 .container {
 	max-width: 1000px;
 }
 
+.navbar{
+	height: 120px;
+}
+
+.img-circle{
+	width: 300px;
+	margin-left: 20%;
+
+}
+
 /* logoS & Icons
 ================================ */
 
-.main-logo{
-	width:124px;
-	text-indent:  100%;
+.main-logo {
+	width: 124px;
+	height: 124px;
+	margin-top: 12px;
+	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	background: url(../img/logo.png) no-repeat;
+	background: url('../img/logo.png') no-repeat;
+	background-size: 100%;
 }
 
 /* Jumbotron
@@ -27,8 +38,16 @@ body {
 .jumbotron {
   text-align: center;
   padding-bottom: 50px;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 260px;
 }
 
+.jumbotron h1,.jumbotron h2{
+	color: white;
+	font-family: cursive;
+}
 /* Glyphicons
 ================================ */
 
