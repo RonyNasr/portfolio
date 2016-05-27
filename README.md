@@ -7,8 +7,8 @@
 
 ##Setup 
 
-*Clone or download the files 
-*open index.html
+* Clone or download the files 
+* open index.html
 
 ##Technologies
 HTML, CSS, Bootstrap, Git
