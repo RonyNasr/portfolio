@@ -3,6 +3,8 @@
 
 body {
 	padding-top: 140px;
+	font-size: 2em;
+
 }
 .container {
 	max-width: 1000px;
@@ -16,6 +18,10 @@ body {
 	width: 300px;
 	margin-left: 20%;
 
+}
+
+.profile-img{
+width:70px;
 }
 
 /* logoS & Icons
@@ -56,14 +62,16 @@ body {
 
 .col-md-4{
 height: 300px;
-border: 10px solid white;
+margin-bottom: 30px;
+
 }
 
 .col-md-4 img{
 	height: 100px;
-	vertical-align: middle;
 	margin: 70px;
+	margin-left: 90px;
 }
+
  .quote{
 	 background-color: #F9F9F9;
 	 height: 190px;
@@ -114,4 +122,25 @@ cite{
 }
 .carousel-indicators li {
 	border-color: #222;
+}
+
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+.navbar button{
+	margin-top: 20px;
+
 }
